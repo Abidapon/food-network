@@ -9,11 +9,16 @@ body{
     margin: 5%;
 }
 
+
 .text-color{
     color:orangered;
 }
 .flex-container{
     display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 .half img{
       width: 70%;
@@ -31,9 +36,11 @@ body{
 .button{
     text-decoration: none;
     background-image: linear-gradient(rgb(241, 179, 8), tomato);
+    
     padding: 10px 40px;
     border-radius: 10px;
     font-weight: 400;
+
 }
 .right-side{
     text-align: right;
@@ -50,7 +57,7 @@ body{
     text-align: left;
     height: 90%;      
 }
-.button2{
+#button2{
     text-decoration: none;
     background-image: linear-gradient(rgb(241, 179, 8), tomato);
     padding: 10px 40px;
@@ -90,9 +97,11 @@ section{
 .title{
     text-align: center;
 }
+
 .des{
     text-align: center;
 }
+
 .shadow{
     width: 40%;
     margin-left: 5%;
@@ -103,6 +112,19 @@ section{
     padding-bottom: 1%;
     border-radius: 5%;
 }
+.middle{
+    text-align: center;
+}
+.end{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-left: 2%;
+    background-position: center;
+    padding: 2%;
+    height: 5%;
+}
+
 
 
 
